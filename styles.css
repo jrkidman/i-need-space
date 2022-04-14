@@ -1,12 +1,12 @@
 * {
     font-family: 'Roboto', sans-serif;
-    color: #03045e;
+    color: #01010e;
 }
 
 body {
     margin: 0;
     padding: 0;
-    background-color: #caf0f8;
+    background-color: #9fe2a5;
 }
 
 h1, h2 {
@@ -15,6 +15,7 @@ h1, h2 {
 
 h2 {
     margin: 0;
+    text-align: center;
 }
 
 .content {
@@ -25,7 +26,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #00b4d8;
+    background-color: darkolivegreen;
     padding: 0 24px;
 }
 
@@ -33,7 +34,7 @@ h2 {
     border-radius: 3px;
     width: fit-content;
     margin-bottom: 24px;
-    background-color: #90e0ef;
+    background-color: darksalmon;
 }
 
 .row {
@@ -65,7 +66,7 @@ input {
 }
 
 button {
-    background-color: #03045e;
+    background-color: #02020f;
     color: white;
     outline: none;
     border: none;
@@ -78,4 +79,16 @@ button {
 
 button:hover {
     box-shadow: 0 0 20px #caf0f8;
+}
+
+#output{
+    padding: 20px;
+    margin: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    * {
+    font-size: smaller;
+    display: 100%;
+    }
 }
